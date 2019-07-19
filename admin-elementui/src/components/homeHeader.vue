@@ -42,18 +42,6 @@ export default {
         });
     },
     confirm:function(gid){
-      // let _self = this;
-      // //数据请求代码  response为响应
-      // this.$http
-      //   .post("/sell/admins.php/admins/Home/index", {
-      //       gid: gid,
-      //     //   pwd: pwd
-      //   })
-      //   .then(function(response) {
-      //     _self.admin_lists = response.data.roles;
-      //    console.log(JSON.stringify( _self.admin_lists));
-      //   });
-      
       //提交状态
       this.$store.commit('changeGid',gid);
       // alert(gid);

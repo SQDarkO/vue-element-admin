@@ -17,39 +17,8 @@
             <span>{{item.title}}</span>
           </template>
           <el-menu-item v-for="childitem in item.children" :key="childitem.mid" :index="childitem.title" @click="con_admin(childitem.title)">{{childitem.title}}</el-menu-item>
-          <!-- <el-submenu index="1-4">
-            <template slot="title">选项</template>
-            <el-menu-item index="1-4-1">选项1</el-menu-item>
-          </el-submenu> -->
+        
         </el-submenu>
-
-        <!-- <el-submenu index="1">
-          <template slot="title">
-            <i class="el-icon-location"></i>
-            <span>管理员管理{{test}}</span>
-          </template>
-          <el-menu-item index="1-1" @click="con_admin('admin')">管理员列表</el-menu-item>
-          <el-submenu index="1-4">
-            <template slot="title">选项4</template>
-            <el-menu-item index="1-4-1">选项1</el-menu-item>
-          </el-submenu>
-        </el-submenu>
-        <el-submenu index="2">
-          <template slot="title">
-            <i class="el-icon-location"></i>
-            <span>权限管理</span>
-          </template>
-          <el-menu-item index="1-1" @click="con_admin('menuAdmin')">菜单管理</el-menu-item>
-          <el-menu-item index="1-1" @click="con_admin('roleAdmin')">角色管理</el-menu-item>
-        </el-submenu>
-        <el-menu-item index="3" disabled>
-          <i class="el-icon-document"></i>
-          <span slot="title">系统设置</span>
-        </el-menu-item>
-        <el-menu-item index="4">
-          <i class="el-icon-setting"></i>
-          <span slot="title">其他</span>
-        </el-menu-item> -->
       </el-menu>
     </el-col>
   </el-row>

@@ -117,33 +117,9 @@ export default {
     this.admin_title();
     // this.changearr();
   },
-  // computed: {
-  //   // 计算属性的 getter
-  //   admin_title: function (gid) {
-  //     let _self = this
-  //        this.$http
-  //       .post("/sell/admins.php/admins/Admin/add2?id="+gid, {
-  //       })
-  //       .then(function(response) {
-  //           _self.admin_groups = response.data;
-  //           _self.test =response.data[0].title;
-  //           console.log(JSON.stringify(_self.admin_groups));
-  //           // console.log(JSON.stringify(_self.admin_groups[1].title));
-
-  //       });
-  //           return _self.test;
-  //   }
-  // },
+ 
   methods: {
-    //变换数组
-    // changearr:function (){
-    //   var _self = this
-    //   for(var i =0;i<_self.roles_lists.length;i++)
-    //   {
-    //     _self.admin_gid[_self.roles_lists.gid] = _self.roles_lists.title;
-    //   }
-    //   alert(JSON.stringify(_self.admin_gid));
-    // },
+   
     //用户名读写权限
     permission: function(th) {
       if (th > 0) {

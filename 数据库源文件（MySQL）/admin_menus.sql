@@ -1,0 +1,14 @@
+INSERT INTO `admin_menus` VALUES (1, 0, 0, '管理员管理', '', '', 0, 0);
+INSERT INTO `admin_menus` VALUES (2, 0, 0, '权限管理', '', '', 0, 0);
+INSERT INTO `admin_menus` VALUES (3, 0, 0, '系统设置', '', '', 0, 0);
+INSERT INTO `admin_menus` VALUES (4, 1, 0, '管理员列表', 'Admin', 'index', 0, 0);
+INSERT INTO `admin_menus` VALUES (5, 1, 0, '管理员添加', 'Admin', 'add', 1, 0);
+INSERT INTO `admin_menus` VALUES (6, 1, 0, '管理员保存', 'Admin', 'save', 1, 0);
+INSERT INTO `admin_menus` VALUES (17, 4, 3, '角色测试3', 'fd', 'gf', 0, 0);
+INSERT INTO `admin_menus` VALUES (9, 0, 4, '测试菜单', 'fdsa', 'fads', 1, 0);
+INSERT INTO `admin_menus` VALUES (11, 1, 1, 'fdasf', 'fasd', 'fdas', 1, 1);
+INSERT INTO `admin_menus` VALUES (16, 4, 2, '角色测试2', 'fd', 'fsd', 0, 0);
+INSERT INTO `admin_menus` VALUES (15, 4, 1, '角色测试', 'ee', 'ee', 1, 1);
+INSERT INTO `admin_menus` VALUES (18, 2, 1, '权限管理测试1', 'fds', 'fas', 0, 0);
+INSERT INTO `admin_menus` VALUES (19, 2, 5, '菜单管理', 'Menu', 'index', 0, 0);
+INSERT INTO `admin_menus` VALUES (20, 2, 6, '角色管理', 'Roles', 'index', 0, 0);

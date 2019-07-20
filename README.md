@@ -3,7 +3,7 @@
   
 二、此项目根据php中文网的课程 https://www.php.cn/course/801.html 修改而成。原项目是用php+layui开发前后端，由于自身在学习vue，就改成了php后端+vue前端。视频原作者讲得很好，有兴趣可移步观看。
   
-二、项目预览图  
+三、项目预览图  
 ![Image text](https://github.com/SQDarkO/vue-element-admin/raw/master/README-imgs/one.png)
 ![Image text](https://github.com/SQDarkO/vue-element-admin/raw/master/README-imgs/two.png)
 ![Image text](https://github.com/SQDarkO/vue-element-admin/raw/master/README-imgs/three.png)
